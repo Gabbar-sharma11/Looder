@@ -1,0 +1,22 @@
+body{
+  width: 100vw;
+  height: 100%;
+  background-color: rgb(224, 243, 243);
+  padding-left: 50px;
+}
+.looder{
+  width: 200px;
+  height: 200px;
+  border: 12px solid black;
+  border-top: 12px solid blue;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
